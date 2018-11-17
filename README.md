@@ -1,33 +1,39 @@
-## Silver Bird ##
+# Silver Bird 2018 ##
 
-1. What is it?
+## What is it?
 
-    Silver Bird is a general purpose Chromium twitter extension.
+This project isa fork of the original Silver Bird extension for Chrome, which aims to fix issues which prevent it from working.
 
-2. Installing
+## Installing
 
-    Get it at the [chrome web store](https://chrome.google.com/webstore/detail/encaiiljifbdbjlphpgpiimidegddhic)
+1. [Download it directly from GitHub](https://github.com/btmpl/silverbird-2018)
 
-    or [Download it directly from GitHub](https://github.com/cezarsa/silver_bird/downloads)
+2. Navigate to [chrome://extensions](chrome://extensions)
 
-3. Compatibility
+3. Enable developer mode in top-right corner
 
-    It works on all Chrome distribution channels: Stable, Beta and Dev.
+4. Select "Load unpacked" and point to the folder where you've unpacked the project
 
-4. Features
+## Compatibility
 
-    * Follow your timelines and navigate through your tweets
-    * Notify user through icon changes whenever new tweets arrive
-    * Compose, reply, and RT tweets
-    * Read / unread tweets tracking
-    * OAuth authentication
-    * Tweets caching to avoid hitting Twitter's API rate limit (Only hit Twitter after 1 minute or when fetching uncached tweets)
-    * It uses Chromium autoupdate feature, so you won't be left behind
+It works on all Chrome distribution channels: Stable, Beta and Dev.
 
-5. License
+## Features
 
-    This project uses the very simple and permissive MIT license. Check the LICENSE file.
+* Follow your timelines and navigate through your tweets
+* Notify user through icon changes whenever new tweets arrive
+* Compose, reply, and RT tweets
+* Read / unread tweets tracking
+* OAuth authentication
+* Tweets caching to avoid hitting Twitter's API rate limit (Only hit Twitter after 1 minute or when fetching uncached tweets)
+* It uses Chromium autoupdate feature, so you won't be left behind
 
-6. Credits
+## License
 
-    [Chiara De Liberato](http://www.chiaradeliberato.it/) - Italian translation
+This project uses the very simple and permissive MIT license. Check the LICENSE file.
+
+## Credits
+
+[Original Silverbird project](https://github.com/cezarsa/silver_bird)
+
+[Chiara De Liberato](http://www.chiaradeliberato.it/) - Italian translation
